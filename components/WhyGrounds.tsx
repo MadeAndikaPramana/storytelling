@@ -30,8 +30,10 @@ export default function WhyGrounds() {
               alt={PHOTOS.grounds.alt}
               fill
               sizes="(min-width: 768px) 40vw, 90vw"
-              className="photo-grade object-cover"
+              quality={70}
+              className="object-cover"
             />
+            <div className="photo-tint" />
             <div className="absolute inset-0 bg-gradient-to-t from-bg/70 via-transparent to-transparent" />
           </div>
           <figcaption className="font-display mt-4 text-sm italic text-cream-dim">
