@@ -15,14 +15,16 @@ export default function Hero({ origin }: { origin: Origin }) {
           fill
           priority
           sizes="100vw"
+          quality={70}
           className="hero-photo object-cover object-center"
         />
+        <div className="photo-tint" />
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/80 to-bg/10" />
         <div className="absolute inset-0 bg-gradient-to-r from-bg/70 to-transparent" />
-        <div className="hero-glow absolute -bottom-40 -left-32 h-[28rem] w-[28rem] rounded-full bg-ember/30 blur-[110px]" />
+        <div className="hero-glow glow-ember absolute -bottom-56 -left-48 h-[36rem] w-[36rem]" />
       </div>
 
-      <CoffeeBeans className="reveal pointer-events-none absolute right-[-1rem] top-[calc(var(--safe-top)+3.75rem)] w-40 opacity-90 drop-shadow-[0_20px_30px_rgba(0,0,0,.6)] sm:right-4 sm:w-56 lg:right-[8%] lg:w-72" />
+      <CoffeeBeans className="reveal pointer-events-none absolute right-[-1rem] top-[calc(var(--safe-top)+3.75rem)] w-40 opacity-90 sm:right-4 sm:w-56 lg:right-[8%] lg:w-72" />
 
       <div className="gutter mx-auto w-full max-w-5xl pt-[calc(var(--safe-top)+1.25rem)]">
         <p className="font-display reveal text-xl tracking-[0.3em] text-cream" style={{ ["--i" as string]: 0 }}>

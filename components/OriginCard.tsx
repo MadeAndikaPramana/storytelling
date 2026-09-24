@@ -4,7 +4,7 @@ export default function OriginCard({ origin }: { origin: Origin }) {
   return (
     <section
       aria-label="Asal ampas kopi"
-      className="relative flex gap-4 rounded-2xl border border-gold/25 bg-panel/85 p-5 backdrop-blur-md sm:p-6"
+      className="relative flex gap-4 rounded-2xl border border-gold/25 bg-panel/95 p-5 sm:p-6"
     >
       <span className="mt-0.5 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-gold/40 text-gold">
         {/* Ikon cangkir */}

@@ -46,7 +46,7 @@ export default function CtaFooter({ kafe }: { kafe?: string }) {
     <footer className="grain relative isolate overflow-hidden border-t border-gold/15 bg-panel">
       <div
         aria-hidden="true"
-        className="absolute left-1/2 top-0 -z-10 h-[32rem] w-[32rem] -translate-x-1/2 -translate-y-1/3 rounded-full bg-ember/25 blur-[120px]"
+        className="glow-ember absolute left-1/2 top-0 -z-10 h-[40rem] w-[40rem] -translate-x-1/2 -translate-y-1/3"
       />
       <div className="gutter mx-auto flex max-w-3xl flex-col items-center pb-[calc(var(--safe-bottom)+2.5rem)] pt-20 text-center sm:pt-24">
         <Candle />
